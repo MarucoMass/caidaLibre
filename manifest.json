@@ -1,0 +1,19 @@
+{
+  "name": "Caida Libre",
+  "short_name": "Caida Libre",
+  "description": "Caida Libre",
+  "background_color": "#0D47A1",
+  "theme_color": "#0D47A1",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./index.html?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es-AR",
+  "icons": [
+    {
+      "src": "./fav.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

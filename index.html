@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./estilo.css">
+        <title>Caida Libre</title>
+        <link rel="icon" type="image/png" href="./fav.svg">
+
+        <!-- webapp -->
+
+        <meta name="theme-color" content="#0D47A1">
+        <meta name="MobileOptimized" content="width">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <link rel="shortcut icon" type="image/png" href="./fav.png">
+        <link rel="apple-touch-icon" href="./fav.png">
+        <link rel="apple-touch-startup-image" href="./fav.png">
+        <link rel="manifest" href="./manifest.json">
+
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7NKVHL5Y5M"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-7NKVHL5Y5M');
+        </script>
+    </head>
+    <body id="body" scroll="no" >
+
+        <audio id="audio" src="./wind.mp3"
+        autoplay>
+        </audio>
+ <!-- class="invisible" -->
+      <div id="load">
+          <img src="./parlante muteado.svg">
+          <img src="./player.svg">
+          <img src="./playerc.svg">
+          <img src="./playerd.svg">
+          <img src="./playeri.svg">
+          <img src="./paracaidas.svg">
+          <img src="./obstaculos1/0.svg" alt="">
+          <img src="./obstaculos1/1.svg" alt="">
+          <img src="./obstaculos1/2.svg" alt="">
+          <img src="./obstaculos1/3.svg" alt="">
+          <img src="./obstaculos1/4.svg" alt="">
+          <img src="./obstaculos1/5.svg" alt="">
+          <img src="./obstaculos1/6.svg" alt="">
+          <img src="./obstaculos1/7.svg" alt="">
+          <img src="./obstaculos1/8.svg" alt=""> 
+          <img src="./obstaculos2/0.svg" alt="">
+          <img src="./obstaculos2/1.svg" alt="">
+          <img src="./obstaculos2/2.svg" alt="">
+          <img src="./obstaculos2/3.svg" alt="">
+          <img src="./obstaculos2/4.svg" alt="">
+          <img src="./obstaculos2/5.svg" alt="">
+          <img src="./obstaculos2/6.svg" alt="">
+          <img src="./obstaculos2/7.svg" alt="">
+          <img src="./obstaculos2/8.svg" alt=""> 
+          <img src="./obstaculos3/0.svg" alt="">
+          <img src="./obstaculos3/1.svg" alt="">
+          <img src="./obstaculos3/2.svg" alt="">
+          <img src="./obstaculos3/3.svg" alt="">
+          <img src="./obstaculos3/4.svg" alt="">
+          <img src="./obstaculos3/5.svg" alt="">
+          <img src="./obstaculos3/6.svg" alt="">
+          <img src="./obstaculos3/7.svg" alt="">
+          <img src="./obstaculos3/8.svg" alt=""> 
+      </div>
+
+    <div id="contenedorcartel">
+        <div id="mudo">
+        <input type="button" id="enmudecer" class="noSilenciado">
+        </div>
+
+        <div id="cartel" class="">
+            <p id="leyenda"><strong>CAIDA LIBRE</strong> <br>
+                Se ve que te gusta mucho la adrenalina...<br>
+                <em>porque estás a punto de soltarte!</em><br>
+                Intenta no chocar con nada en tu camino<br>
+                Si no quieres acabar hecho puré<br> 
+                presta atención a la altura porque a los<br> 
+                100 metros podrás atrapar otro paracaídas.<br>
+                <img src="./paracaidas.svg" height="50px"><br>
+                <em>Suerte.</em>
+            </p> 
+            <input type = "button" id = "play" value = "JUGAR" >
+        </div>
+        <div id="autores">Hecho por <a target="blank" href="https://www.instagram.com/Maruco_Mass"><strong>@</strong>Maruco_Mass</a> <strong>&</strong>  <a target="blank" href="https://www.instagram.com/guillermo_rubiolo/"><strong>@</strong>Guillermo_Rubiolo</a> en <a href="/index.html">StrangeBox</a></div>
+
+
+        
+
+    </div>
+
+    <h3 id="h3" class="invisible"><span id="metros" >500</span> Mts.</h3>
+    
+    
+    <img src="./nube.svg" class="nube" style="--i:-1;">
+    <img src="./nube.svg" class="nube" style="--i:3;">
+    <img src="./nube.svg" class="nube" style="--i:4;">
+    <img src="./nube.svg" class="nube" style="--i:8;">
+    <img src="./nube.svg" class="nube" style="--i:7;">
+    <img src="./nube.svg" class="nube" style="--i:13;">
+    <img src="./nube.svg" class="nube" style="--i:15;">
+    <img src="./nube.svg" class="nube" style="--i:5;">
+    <img src="./nube.svg" class="nube" style="--i:14;">
+    <img src="./nube.svg" class="nube" style="--i:0;">
+    <img src="./nube.svg" class="nube" style="--i:10;">
+    <img src="./nube.svg" class="nube" style="--i:6;">
+    <img src="./nube.svg" class="nube" style="--i:2;">
+    <img src="./nube.svg" class="nube" style="--i:11;">
+    <img src="./nube.svg" class="nube" style="--i:9;">
+    <img src="./nube.svg" class="nube" style="--i:1;">
+    <img src="./nube.svg" class="nube" style="--i:12;">
+
+    <div id="cielo1">
+        
+        <img src="./nube.svg" class="nube2" style="--i:1;">
+        <img src="./nube.svg" class="nube2" style="--i:4;">
+        <img src="./nube.svg" class="nube2" style="--i:2;">
+        <img src="./nube.svg" class="nube2" style="--i:0;">
+        <img src="./nube.svg" class="nube2" style="--i:3;">
+
+        <div id="cielo2">
+            
+            <div id="cielo3">
+                <div id="cielo4">
+                    <div id="player" class="canal3 fall"><img src="./player.svg" id="paracaidista"></div>
+                </div>
+            </div>
+        </div> 
+        
+    </div>        
+    
+    <div id="botonera" class="none invisible" > 
+        <input type="button" id="izquierda" value="<">
+        
+        <input type="button" id="derecha" value=">">
+    </div>
+
+
+    
+    
+    <script src="./script.js"></script>
+</body>
+</html>
+

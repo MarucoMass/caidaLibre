@@ -1,0 +1,47 @@
+- Fluidez de las nubes: fondo más espaciado y nubes aleatorias al frente ✅
+
+- redimensionar elementos svg.✅
+
+- pantalla de inicio ✅
+
+- Acomodar cartel.✅
+
+- al apretar jugar se suelta el paracaidas✅ y las nubes aleatorias empiezan
+
+- al cambiar de canal cambiar la imágen para mirar al costado. ✅
+
+- contador de puntaje por segundos (metros) ✅
+
+- agarrar el paracaidas para ganar.✅
+
+- evento de ganar.✅
+
+- evento de perder.✅
+
+- Teclas de reset.✅
+
+- estrolarse contra el suelko y perder a 0mts.✅
+
+- coliciones ✅
+
+- cambio de nivel a noche. ✅
+
+- Hacer nubes  tormentosas. ✅
+
+- Dividir obstaculos por niveles. ✅
+
+- Hacer nivel espacial a los +xxxx metros. ✅
+
+- Presentar paracaidas en el cartel de bienvenida.✅
+
+- Sonido al estrolarse contra el suelo. ✅
+
+- poner el boton de fullscreen. ✖
+
+- Hacer un footer.✅
+
+- Publicar.
+
+
+
+
